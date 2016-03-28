@@ -37,7 +37,7 @@ class ContactsController < ApplicationController
 
   def destroy
     Contact.delete(params[:id])
-    render text: "Contact has been destroyed"
+    render text: "Contact has been destroyed  "
   end
 
   private

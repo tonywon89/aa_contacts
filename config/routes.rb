@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   end
 
   resources :contacts, only: [:create, :destroy, :show, :update]
+
+  resources :contact_shares, only: [:create, :destroy]
 end
